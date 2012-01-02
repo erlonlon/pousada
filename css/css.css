@@ -1,0 +1,116 @@
+/* 
+    Document   : css
+    Created on : 01/01/2012, 18:48:18
+    Author     : Erlon
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body{
+    
+  
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+
+#login_view{
+    
+    width: 320px;    
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-color: #ffffff;
+    border-left-color: #ffffff;
+    border-bottom-color: #ffffff;
+    border-top-color: #ffffff;
+    margin: 150px auto 0;
+    padding: 1em;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    background-color: #cccccc;
+}
+h1,h2,h3,h4,h5{
+    
+    margin-top: 0;
+    font-family:  serif;
+    text-align: center;
+}
+
+input[type=text],input[type=password]{
+    
+    display: block;
+    margin-top: 5px;
+    width: 280px;
+    border: 05px;
+     -moz-border-radius:1px;
+    -webkit-border-radius:1px;
+    padding: 0.5em;
+    
+    
+   
+    margin-bottom: 5px;
+}
+input[type=submit],form a{
+    border: none;
+    margin-right: 1em;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 12px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    background: #348075;
+    color: #ffffff;
+    box-shadow: 0 1px 0 white;
+    -moz-box-shadow:0 1px 0 white;
+    -webkit-box-shadow:0 1px 0 white;
+    
+    
+    
+}
+
+input[type=submit]:hover, form a:hover{
+    
+    background: #287368;
+    cursor: pointer;
+}
+.error{
+   
+    color: #ff0033;
+    font-family: 'Times New Roman',Times,serif;
+}
+fieldeset{
+    
+    width: 300px;
+    margin: auto;
+    margin-bottom: 2em;
+    display: block;
+}
+h1{
+    text-shadow: 0 1px 0 white;
+}
+
+#tutinfo{
+    
+    background: #e3e3e3;
+    border-top: 1px solid white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: .7em .7em .7em .2em  ;
+    
+    
+    
+}
+
